@@ -1,0 +1,95 @@
+{
+  "rooms": [
+    {
+      "id": "discussion_room",
+      "name": "if lab讨论室",
+      "description": "宽敞明亮的讨论室，墙上贴满了人工智能相关的海报，配备有大型显示屏和白板。空气中充满了创新的气息。",
+      "connected_to": ["lab", "corridor", "dormitory"],
+      "items": ["投影仪", "白板", "会议桌", "电脑", "海报墙"],
+      "ambient_sounds": ["讨论声", "键盘声", "空调声"],
+      "time_features": {
+        "morning": "早会讨论的热烈氛围",
+        "afternoon": "项目研讨和经验分享",
+        "evening": "技术沙龙时间"
+      }
+    },
+    {
+      "id": "dormitory",
+      "name": "学生宿舍",
+      "description": "标准的六人间宿舍，床铺整齐排列，每个人的桌子上都摆满了学习资料和个人物品。",
+      "connected_to": ["discussion_room", "corridor", "bathroom"],
+      "items": ["床铺×6", "书桌×6", "衣柜×6", "电脑", "书架"],
+      "ambient_sounds": ["谈话声", "键盘声", "音乐声"],
+      "time_features": {
+        "morning": "匆忙起床的声音",
+        "afternoon": "午休时光",
+        "evening": "夜晚学习的氛围"
+      }
+    },
+    {
+      "id": "lab",
+      "name": "人工智能实验室",
+      "description": "配备高性能计算设备的实验室，多个显示器上运行着各种AI模型。墙上贴着项目进度表和算法流程图。",
+      "connected_to": ["discussion_room", "corridor"],
+      "items": ["服务器", "工作站", "显示器", "白板", "技术书籍"],
+      "ambient_sounds": ["设备运行声", "键盘声", "讨论声"],
+      "time_features": {
+        "morning": "晨光中的代码调试",
+        "afternoon": "实验数据分析时间",
+        "evening": "挑灯夜战的研究氛围"
+      }
+    },
+    {
+      "id": "kitchen",
+      "name": "公共厨房",
+      "description": "设施齐全的公共厨房，各种厨具一应俱全。墙上贴着食谱和值日表。",
+      "connected_to": ["corridor", "living_room"],
+      "items": ["灶台", "冰箱", "微波炉", "餐具柜", "调料架"],
+      "ambient_sounds": ["炒菜声", "水流声", "谈话声"],
+      "time_features": {
+        "morning": "早餐香气四溢",
+        "afternoon": "准备午餐的繁忙",
+        "evening": "晚餐时的温馨"
+      }
+    },
+    {
+      "id": "living_room",
+      "name": "公共客厅",
+      "description": "舒适的公共活动空间，有大型电视和沙发。是大家放松交流的好去处。",
+      "connected_to": ["kitchen", "corridor"],
+      "items": ["沙发", "电视", "茶几", "书架", "游戏机"],
+      "ambient_sounds": ["电视声", "谈笑声", "游戏声"],
+      "time_features": {
+        "morning": "清晨新闻时间",
+        "afternoon": "休闲娱乐",
+        "evening": "团体活动时光"
+      }
+    },
+    {
+      "id": "corridor",
+      "name": "连接走廊",
+      "description": "宽敞的走廊连接各个房间，墙上装饰着学生作品和活动照片。",
+      "connected_to": ["discussion_room", "lab", "dormitory", "kitchen", "living_room", "bathroom"],
+      "items": ["公告栏", "照片墙", "饮水机", "休息椅"],
+      "ambient_sounds": ["脚步声", "谈话声", "开门声"],
+      "time_features": {
+        "morning": "早起匆忙的脚步声",
+        "afternoon": "休闲散步的学生",
+        "evening": "夜晚安静的氛围"
+      }
+    },
+    {
+      "id": "bathroom",
+      "name": "公共卫浴",
+      "description": "干净整洁的公共卫浴设施，配备多个淋浴间和洗漱台。",
+      "connected_to": ["dormitory", "corridor"],
+      "items": ["淋浴间", "洗漱台", "镜子", "储物柜"],
+      "ambient_sounds": ["水流声", "吹风机声"],
+      "time_features": {
+        "morning": "晨起洗漱的繁忙",
+        "afternoon": "安静空闲",
+        "evening": "夜晚沐浴时光"
+      }
+    }
+  ]
+}

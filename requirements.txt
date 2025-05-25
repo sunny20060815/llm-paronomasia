@@ -1,0 +1,13 @@
+# 基础依赖
+requests>=2.31.0
+colorama>=0.4.6
+
+# 类型提示支持
+typing-extensions>=4.7.1
+
+# 时间处理
+python-dateutil>=2.8.2
+
+# 数据处理
+dataclasses>=0.6
+json5>=0.9.14

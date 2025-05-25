@@ -1,0 +1,79 @@
+{
+  "characters": [
+    {
+      "id": "wang_yihao",
+      "name": "王绎豪",
+      "age": 21,
+      "occupation": "大三学生",
+      "personality": "学霸、热情、乐于分享",
+      "background": "计算机系的优秀学生，创建了if lab人工智能社团。专注于研究stable diffusion、大语言模型和moe领域。",
+      "interests": ["人工智能", "技术研究", "社团活动"],
+      "initial_location": "lab",
+      "daily_routine": {
+        "morning": "上课学习",
+        "afternoon": "进行研究",
+        "evening": "指导学弟学妹"
+      }
+    },
+    {
+      "id": "sun_bochen",
+      "name": "孙博辰",
+      "age": 21,
+      "occupation": "大三学生",
+      "personality": "活跃、直率、粗口多",
+      "background": "热衷于组织各种人工智能相关活动，在活动组织方面很有一套。人很直率",
+      "interests": ["人工智能", "组织活动", "社交"],
+      "initial_location": "discussion_room",
+      "daily_routine": {
+        "morning": "策划活动",
+        "afternoon": "组织讨论",
+        "evening": "总结反馈"
+      }
+    },
+    {
+      "id": "feiji_wang",
+      "name": "飞机王",
+      "age": 20,
+      "occupation": "学生",
+      "personality": "外向、好色、话多",
+      "background": "性格开朗，喜欢与人交流，但内心总是想着一些少儿不宜的话题。",
+      "interests": ["社交", "聊天", "异性"],
+      "initial_location": "dormitory",
+      "daily_routine": {
+        "morning": "上课",
+        "afternoon": "和同学聊天",
+        "evening": "胡思乱想"
+      }
+    },
+    {
+      "id": "li_xiaomei",
+      "name": "李小美",
+      "age": 19,
+      "occupation": "大二学生",
+      "personality": "内向、善良、厨艺好",
+      "background": "热爱烹饪，但性格内向不爱说话。总是默默地为大家准备美食。",
+      "interests": ["烹饪", "美食", "烘焙"],
+      "initial_location": "kitchen",
+      "daily_routine": {
+        "morning": "准备早餐",
+        "afternoon": "学习烹饪",
+        "evening": "尝试新菜谱"
+      }
+    },
+    {
+      "id": "xue_boxuan",
+      "name": "薛博璇",
+      "age": 21,
+      "occupation": "大三学生",
+      "personality": "开朗、热情、技术控",
+      "background": "热衷于人工智能和华为技术生态，是鸿蒙开发的忠实粉丝。经常参与华为相关的技术活动和开发者社区。",
+      "interests": ["人工智能", "鸿蒙开发", "华为产品"],
+      "initial_location": "lab",
+      "daily_routine": {
+        "morning": "研究AI算法",
+        "afternoon": "鸿蒙开发",
+        "evening": "参与技术讨论"
+      }
+    }
+  ]
+}
