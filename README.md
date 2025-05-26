@@ -1,5 +1,4 @@
 
-```markdown
 # VirtualTown: 基于AI的虚拟小镇模拟系统
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![DeepSeek API](https://img.shields.io/badge/DeepSeek-Chat-orange.svg)](https://www.deepseek.com/)
@@ -27,7 +26,7 @@ VirtualTown 是一个基于 **Python** 和 **深度学习模型** 的虚拟小�
 
 
 ## 技术架构
-```
+```python
 VirtualTown/
 ├─ main.py               # 主程序入口，控制游戏流程
 ├─ api_client.py         # 与DeepSeek API交互的客户端
@@ -77,7 +76,7 @@ python main.py
 ## 贡献与反馈
 欢迎通过 GitHub Issue 提出建议或 Bug 报告。如需贡献代码，请提交 Pull Request 并说明功能变更。
 
-**项目地址**：[https://github.com/your-username/VirtualTown](https://github.com/your-username/VirtualTown)
+**项目地址**：[https://github.com/sunny20060815/llm-paronomasia](https://github.com/sunny20060815/llm-paronomasia)
 
 
 ## English Introduction
@@ -102,6 +101,6 @@ VirtualTown is an AI-powered virtual town simulation system built with Python an
    python main.py
    ```
 
-For detailed documentation and contributions, visit the [GitHub Repository](https://github.com/your-username/VirtualTown).
+For detailed documentation and contributions, visit the [GitHub Repository](https://github.com/sunny20060815/llm-paronomasia).
 ```
 
